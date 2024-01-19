@@ -176,12 +176,12 @@ export const ContactForm = () => {
     if (validateForm()) {
       Email.send({
         Host: "smtp.elasticemail.com",
-        Username: "ruhulmirza743@gmail.com",
-        Password: "8859F192A66A698ACEB32639B2E3D457045D",
-        To: "karimbashir25@gmail.com",
-        From: "ruhulmirza743@gmail.com",
-        Subject: "This is the subject",
-        Body: `<b>Hello AMCK Knowledge Solutions</b> <br> You got a new message from ${form.current["user_name"].value} <br> Email:${form.current["user_email"].value} <br> Mobile Number : ${form.current["user_mobileNumber"].value} <br> Message ${form.current["message"].value} <br><br> Best wishes, from  ${form.current["user_name"].value}`,
+        Username: "abbas.ali@amckhealth.com",
+        Password: "27B210212186C942AC1A7E8C8695EB0A3141",
+        To: "abbas.ali@amckhealth.com",
+        From: "abbas.ali@amckhealth.com",
+        Subject: "Inquiry Request",
+        Body: `<b>Hello AMCK Knowledge Solutions</b> <br> You got a new message from ${form.current["user_name"].value} <br> Email:${form.current["user_email"].value} <br> Mobile Number : ${form.current["user_mobileNumber"].value} <br> Message : ${form.current["message"].value} <br><br> Best wishes, from  ${form.current["user_name"].value}`,
       }).then((message) => form.current.reset());
     }
   };
