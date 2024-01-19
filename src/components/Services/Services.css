@@ -1,0 +1,124 @@
+/* hero */
+.top {
+  position: relative;
+  background: url("../images/istockphoto.jpg") center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+  font-style: italic;
+  z-index: -3;
+}
+
+.overlayservices {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #213a62b0;
+}
+/* services */
+.services {
+  background: white;
+}
+#serviceshead {
+  background: #213a62;
+  color: #6aa53b;
+}
+.isActive {
+  background: white;
+  color: #213a62;
+}
+.custom-card {
+  border-radius: 10px;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: #213a62;
+  color: white;
+}
+.custom-card:hover .icon {
+  color: white;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 20px auto 0px auto;
+  font-size: 18px;
+  color: #213a62;
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* expertise */
+.expertisemain{
+  background: #213a62;
+}
+.expertise-section {
+  padding: 20px 0;
+}
+.expertise-section .list-group-item {
+  font-weight: bold;
+  padding: 15px ;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+}
+.list-group-item:hover {
+  transform: scale(1.05);
+}
+.expertise-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #007bff;
+}
+.expertise-description {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* HIPAA Controls */
+.card-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  height: 100%; 
+}
+
+.rounded-circle-container {
+  background: rgb(106, 165, 59);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.rounded-circle {
+  width: 40px; 
+  height: 40px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-container p{
+  margin-top: 10px;
+  font-weight: 700;
+  text-align: justify;
+}

@@ -1,0 +1,166 @@
+.top {
+  position: relative;
+  background: url("../images/istockphoto.jpg") center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+  font-style: italic;
+  z-index: -3;
+}
+
+.overlay {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(30, 144, 255, 0.5);
+}
+/* Why choose us */
+.why-us h2 {
+  position: relative;
+  color: #213a62;
+  margin-bottom: 35px;
+}
+.why-us h2::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  display: inline-block;
+  background: rgb(106, 165, 59);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -20px;
+  margin: 0 auto;
+}
+
+.why-us .box {
+  padding: 50px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  position: relative;
+  background: #213a62;
+  height: 250px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.why-us .box:hover {
+  padding: 30px 30px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.why-us .box img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0;
+  transition: all ease 1s;
+}
+.why-us .box:hover img {
+  opacity: 1;
+}
+.why-us .box span {
+  display: block;
+  font-size: 56px;
+  font-weight: 700;
+  color: #14233a;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  line-height: normal;
+}
+.why-us .box h4 a {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  color: white;
+  text-decoration: none;
+}
+.why-us .box p {
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.why-us .box:hover span,
+.why-us .box:hover h4 a,
+.why-us .box:hover p {
+  color: white;
+}
+
+/* Avantages */
+.advantagemain {
+  background: #213a62;
+}
+.advantagesection {
+  box-sizing: border-box;
+}
+.advantagemain .list-group {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantagemain .list-group-item {
+  font-weight: bold;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+}
+.advantagesection h2 {
+  position: relative;
+  color: white;
+  margin-bottom: 35px;
+}
+
+/* future */
+
+.future-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid #213a62; */
+  /* border-radius: 8px; */
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+.future-card:hover {
+  transform: scale(1.05);
+}
+
+.futureicon {
+  background-color: rgb(106, 165, 59);
+  padding: 20px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 20px auto 0;
+  font-size: 18px;
+  color: #213a62;
+}
+
+.futureicon svg {
+  color: #213a62;
+}
+
+.custom-card-content {
+  padding: 20px;
+}
+
+.future-card .card-title {
+  color: #213a62;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
