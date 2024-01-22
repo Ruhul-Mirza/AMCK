@@ -116,7 +116,7 @@ export const AboutWhyChooseUs = () => {
                 <a href="#">Expertise</a>
               </h4>
               <p>
-                With over [Number] years in the industry, we've honed our skills
+                With over 15 years in the industry, we've honed our skills
                 and gained comprehensive knowledge of the medical billing and
                 coding field
               </p>
