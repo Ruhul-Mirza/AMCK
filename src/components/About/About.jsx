@@ -361,6 +361,52 @@ export function AboutFuture() {
   );
 }
 
+
+export function RefundPolicy() {
+  return (
+    <section className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
+      <div className="container">
+        <div className="text-center mb-5">
+          <h2 className="fw-bold text-primary">Refund Policy</h2>
+          <p className="text-success fs-5 fw-semibold">
+            Transparency in Every Transaction
+          </p>
+        </div>
+
+        <div className="row justify-content-center">
+          <div className="col-lg-8 col-md-10">
+            <div className="p-4 p-md-5 bg-white rounded-3 border border-2 border-light shadow-sm">
+              <h5 className="fw-semibold text-success mb-4">
+                Non-Refundable Items/Policy:
+              </h5>
+
+              <ul className="list-unstyled text-dark fs-6 mb-4">
+                <li className="mb-2">
+                  ✅ Services already rendered (unless billing error proven)
+                </li>
+                <li className="mb-2">
+                  ✅ Non-recoverable administrative costs
+                </li>
+                <li className="mb-2">
+                  ✅ Application/processing fees
+                </li>
+              </ul>
+
+              <p className="text-black m-0">
+                <strong>Note:</strong> We strictly adhere to applicable standards including:
+                <br />
+                <span className="d-block">• GAAP – Generally Accepted Accounting Principles</span>
+                <span className="d-block">• HIPAA – Health Insurance Portability and Accountability Act</span>
+                <span className="d-block">• Consumer Rights Laws – as per applicable regulations</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export function About() {
   return (
     <div className="main">
@@ -368,6 +414,7 @@ export function About() {
       <AboutWhoWeAre />
       <AboutWhyChooseUs />
       <AboutAdvantages />
+      <RefundPolicy/>
       <AboutFuture />
     </div>
   );
